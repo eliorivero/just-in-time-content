@@ -1,0 +1,132 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: StartFunction Just In Time Content\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-24 02:34-0300\n"
+"PO-Revision-Date: 2021-01-24 02:34-0300\n"
+"Last-Translator: \n"
+"Language-Team: https://startfunction.com\n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;sprintf;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../startfunction-admin.php:46
+msgid "Welcome!"
+msgstr "¡Bienvenido!"
+
+#: ../startfunction-admin.php:47
+msgid ""
+"This plugin displays a different home page based on the times of the day "
+"selected."
+msgstr ""
+"Este plugin muestra una página de inicio diferente basada en las horas del "
+"día seleccionada."
+
+#: ../startfunction-admin.php:48
+msgid "About the settings"
+msgstr "Acerca de los ajustes"
+
+#: ../startfunction-admin.php:49
+msgid ""
+"The settings in this page set default values to be used throughout the site."
+msgstr ""
+"Los ajustes en esta página establecen valores a ser usados en todo el sitio."
+
+#: ../startfunction-admin.php:51
+#, php-format
+msgid "%s created by Elio Rivero. Follow %s on Twitter for the latest updates."
+msgstr ""
+"%s creado por Elio Rivero. Sigue %s en Twitter para las últimas novedades."
+
+#: ../startfunction-admin.php:58
+msgid "Introduction"
+msgstr "Introducción"
+
+#: ../startfunction-admin.php:70
+msgid "You do not have sufficient permissions to access this page."
+msgstr "No tienes permiso para acceder a esta página."
+
+#: ../startfunction-admin.php:79
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../startfunction-admin.php:94
+msgid "Morning Settings"
+msgstr "Ajustes de la mañana"
+
+#: ../startfunction-admin.php:95
+msgid "Noon Settings"
+msgstr "Ajustes del mediodía"
+
+#: ../startfunction-admin.php:96
+msgid "Afternoon Settings"
+msgstr "Ajustes de la tarde"
+
+#: ../startfunction-admin.php:97
+msgid "Night Settings"
+msgstr "Ajustes de la noche"
+
+#: ../startfunction-admin.php:98
+msgid "General Settings"
+msgstr "Ajustes generales"
+
+#: ../startfunction-admin.php:140
+msgid "Remove Options on Uninstall"
+msgstr "Borrar opciones al desinstalar"
+
+#: ../startfunction-admin.php:143
+msgid "Check this to remove options on uninstall."
+msgstr "Marca esto para borrar las opciones al desinstalar este plugin."
+
+#: ../startfunction-admin.php:216
+msgid "Start time"
+msgstr "Hora inicial"
+
+#: ../startfunction-admin.php:216
+msgid "End time"
+msgstr "Hora final"
+
+#: ../startfunction-admin.php:220
+msgid "Select the start time for this page."
+msgstr "Selecciona la hora inicial para esta página."
+
+#: ../startfunction-admin.php:220
+msgid "Select the end time for this page."
+msgstr "Selecciona la hora final para esta página."
+
+#: ../startfunction-admin.php:235
+msgid "Page to show"
+msgstr "Páginas a mostrar"
+
+#: ../startfunction-admin.php:239
+msgid "Select the page to show during this time range."
+msgstr "Selecciona la página a mostrar durante este tiempo."
+
+#: ../startfunction-admin.php:284
+msgid "Settings for the page to show in the morning."
+msgstr "Ajustes para la página a mostrar a la mañana."
+
+#: ../startfunction-admin.php:292
+msgid "Settings for the page to show at noon."
+msgstr "Ajustes para la página a mostrar al mediodía."
+
+#: ../startfunction-admin.php:300
+msgid "Settings for the page to show after noon."
+msgstr "Ajustes para la página a mostrar a la tarde."
+
+#: ../startfunction-admin.php:308
+msgid "Settings for the page to show at night."
+msgstr "Ajustes para la página a mostrar a la noche."
+
+#: ../startfunction-admin.php:316
+msgid "General plugin settings."
+msgstr "Ajustes del plugin generales."
+
+#: ../startfunction-admin.php:377
+msgid "Settings"
+msgstr "Ajustes"
