@@ -10,7 +10,7 @@
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  * Domain Path: /languages
  * Text Domain: startfunction
- * Requires at least: 5.4
+ * Requires at least: 5.3
  * Requires PHP: 7.0
  */
 

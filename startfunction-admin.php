@@ -155,6 +155,7 @@ class StartFunction_JITC_Admin {
 
 	/**
 	 * When the plugin is activated, setup some options on the database
+	 * 
 	 * @since 1.0.0
 	 */
 	function activate() {
@@ -186,6 +187,8 @@ class StartFunction_JITC_Admin {
 	 * The label is rendered using the time format selected by user in Settings > General
 	 * 
 	 * @return array
+	 * 
+	 * @since 1.0.0
 	 */
 	function get_hours() {
 		$times = [];
@@ -205,6 +208,8 @@ class StartFunction_JITC_Admin {
 	 * @param array $hours
 	 * 
 	 * @return array
+	 * 
+	 * @since 1.0.0
 	 */
 	function get_hours_select($is_start, $default, $field_id, $hours) {
 		return [
@@ -224,6 +229,8 @@ class StartFunction_JITC_Admin {
 	 * @param array $pages
 	 * 
 	 * @return array
+	 * 
+	 * @since 1.0.0
 	 */
 	function get_page_for_time($field_id, $pages) {
 		return [
@@ -238,8 +245,10 @@ class StartFunction_JITC_Admin {
 	
 	/**
 	 * Validates options trying to be saved. Specific sentences are required for each value.
+	 * 
 	 * @param array
 	 * @return array
+	 * 
 	 * @since 1.0.0
 	 */
 	function validate_options($input){
@@ -274,6 +283,7 @@ class StartFunction_JITC_Admin {
 	
 	/**
 	 * Callback for morning settings section
+	 * 
 	 * @since 1.0.0
 	 */
 	function morning() {
@@ -282,6 +292,7 @@ class StartFunction_JITC_Admin {
 
 	/**
 	 * Callback for noon settings section
+	 * 
 	 * @since 1.0.0
 	 */
 	function noon() {
@@ -290,6 +301,7 @@ class StartFunction_JITC_Admin {
 	
 	/**
 	 * Callback for afternoon settings section
+	 * 
 	 * @since 1.0.0
 	 */
 	function afternoon() {
@@ -298,6 +310,7 @@ class StartFunction_JITC_Admin {
 	
 	/**
 	 * Callback for night settings section
+	 * 
 	 * @since 1.0.0
 	 */
 	function night() {
@@ -322,7 +335,9 @@ class StartFunction_JITC_Admin {
 
 	/**
 	 * Creates a checkbox control
+	 * 
 	 * @param array
+	 * 
 	 * @since 1.0.0
 	 */
 	function checkbox($args) {
