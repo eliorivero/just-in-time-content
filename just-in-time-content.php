@@ -25,11 +25,9 @@ $name = 'startfunction_jitc';
 /**
  * Load localization file
  */
-function startfunction_localization() {
+add_action( 'plugins_loaded', function() {
 	load_plugin_textdomain( 'startfunction', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' ); 
-}
-
-add_action( 'plugins_loaded', 'startfunction_localization' );
+} );
 
 /**
  * Create Settings Page
@@ -76,4 +74,4 @@ add_action( 'plugins_loaded', function() use ( $startfunction_jitc ) {
 		} );
 	}
 
-});
+} );
