@@ -1,7 +1,7 @@
 <?php
 /**
- * Plugin Name: Just in Time Content
- * Plugin URI: https://startfunction.com/just-in-time-content-for-wordpress
+ * Plugin Name: Time Based Content
+ * Plugin URI: https://startfunction.com/time-based-content-for-wordpress
  * Description: Displays content based on specified time.
  * Version: 1.0.0
  * Author: Elio Rivero

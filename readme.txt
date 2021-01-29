@@ -1,4 +1,4 @@
-=== Just In Time Content ===
+=== Time Based Content ===
 Contributors: eliorivero
 Tags: publish, post, page
 Stable tag: 1.0.0
@@ -21,14 +21,9 @@ There are four ranges to specify a page:
 - night
 However, each hour selection covers the entire day so you don't have to select all four: you can select three ranges, or two, or one. 
 
-
-= Contributing =
-
-Contributions and suggestions are received at [the plugin repo on GitHub](https://github.com/eliorivero/admin-bar-publish).
-
 == Installation ==
 
-1. Install this plugin in the WP Admin by going to Plugins > Add New and searching for "just in time content".
+1. Install this plugin in the WP Admin by going to Plugins > Add New and searching for "time based content".
 
 2. Once it's installed, activate it.
 
@@ -45,7 +40,7 @@ Contributions and suggestions are received at [the plugin repo on GitHub](https:
 
 5. Set Your homepage displays to A static page and select any page you'd like to display whenever you're not displaying one of the specific pages for the times of the day. For example, if you specify that the night page will be displayed until 12:00 am, and the morning page will start displaying at 07:00 am, then this page will display betwen that time when no other page is assigned.
 
-6. Go to the plugin settings page at WP Admin > Settings > Just In Time Content
+6. Go to the plugin settings page at WP Admin > Settings > Time Based Content
 
 7. Select the time ranges and the page to display at each time.
 

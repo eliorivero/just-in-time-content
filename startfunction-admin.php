@@ -44,7 +44,7 @@ class StartFunction_JITC_Admin {
 		$html .= '<p>' . sprintf( esc_html__( 'This plugin displays a different home page based on the times of the day selected. If there is a time period where no page has been assigned, it will use the page you select in Settings > Reading in the Your homepage displays option.', 'startfunction' ), $this->plugin_data['Name'] ) . '</p>';
 		
 		$html .= '<p><em>' . sprintf( esc_html__( '%s created by Elio Rivero. Follow %s on Twitter for the latest updates.', 'startfunction' ),
-			'<a href="https://startfunction.com/just-in-time-content-for-wordpress">' . $this->plugin_data['Name'] . '</a>',
+			'<a href="https://startfunction.com/time-based-content-for-wordpress">' . $this->plugin_data['Name'] . '</a>',
 			'<a href="https://twitter.com/eliorivero">@eliorivero</a>'
 		) . '</em></p>';
 
