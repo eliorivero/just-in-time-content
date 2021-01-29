@@ -27,4 +27,4 @@ Displays a different front page according to the time of the day.
 If you now go to the front end of the site, you'll see the page you specified.
 
 Read more at:
-https://startfunction.com/just-in-time-content-for-wordpress
+https://startfunction.com/time-based-content-for-wordpress
