@@ -1,9 +1,9 @@
 === Time Based Content ===
 Contributors: eliorivero
 Tags: publish, post, page
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 Requires at least: 5.3
-Tested up to: 5.6
+Tested up to: 6.6.2
 License: GPLv2 or later
 
 Displays a different front page according to the time of the day.
@@ -55,6 +55,10 @@ Contributions are welcome at [the plugin repo on GitHub](https://github.com/elio
 1. Settings to specify pages for different times of the day
 
 == Changelog ==
+
+= 1.0.1 =
+
+* Update paramaters passed to get the hours in WP Admin so it doesn't throw an error.
 
 = 1.0.0 =
 

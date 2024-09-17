@@ -3,7 +3,7 @@
  * Plugin Name: Time Based Content
  * Plugin URI: https://startfunction.com/time-based-content-for-wordpress
  * Description: Displays content based on specified time.
- * Version: 1.0.0
+ * Version: 1.0.1
  * Author: Elio Rivero
  * Author URI: https://startfunction.com/
  * License: GPLv2 or later
@@ -16,7 +16,7 @@
 
 defined( 'ABSPATH' ) || exit;
 
-define( 'SF_JITC_VERSION', '1.0.0' );
+define( 'SF_JITC_VERSION', '1.0.1' );
 define( 'SF_JITC_URI', plugins_url( '' , __FILE__ ) );
 define( 'SF_JITC_DIR', plugin_dir_path( __FILE__ ) );
 

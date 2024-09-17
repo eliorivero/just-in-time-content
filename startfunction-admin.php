@@ -193,8 +193,8 @@ class StartFunction_JITC_Admin {
 	function get_hours() {
 		$times = [];
 		foreach ( range( 0, 86400, 3600 ) as $timestamp ) {
-			$hour_mins = wp_date( 'H:i', $timestamp, 'UTC+0' );
-			$times[$hour_mins] = wp_date( get_option('time_format'), $timestamp, 'UTC+0' );
+			$hour_mins = wp_date( 'H:i', $timestamp, new DateTimeZone('UTC') );
+			$times[$hour_mins] = wp_date( get_option('time_format'), $timestamp, new DateTimeZone('UTC') );
 		}
 		return $times;
 	}
